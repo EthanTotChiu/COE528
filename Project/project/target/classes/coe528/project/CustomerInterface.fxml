@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.CustomerInterfaceController">
+   <children>
+      <Button fx:id="depBut" layoutX="134.0" layoutY="166.0" mnemonicParsing="false" onAction="#switchToDeposit" text="Deopsit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="250.0" layoutY="166.0" mnemonicParsing="false" onAction="#switchToWithdraw" text="WIthdraw">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="381.0" layoutY="166.0" mnemonicParsing="false" onAction="#switchToPurchase" text="Purchase">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="270.0" layoutY="258.0" mnemonicParsing="false" onAction="#logOut" text="Logout">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="currentBal" layoutX="160.0" layoutY="224.0" prefHeight="17.0" prefWidth="282.0" />
+   </children>
+</AnchorPane>
